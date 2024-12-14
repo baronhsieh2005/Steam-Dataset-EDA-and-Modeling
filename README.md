@@ -1,1 +1,6 @@
 # Steam-Dataset-EDA-and-Modeling
+For our final project, we sought to predict using pre-release metrics the success of games on Steam, the largest digital distribution platform for PC gaming. We chose this topic due to our shared interest in gaming and its potential value for companies and solo developers seeking to create successful games for the Steam platform.
+
+For this project, we decided to use the steam games dataset from Kaggle which contained comprehensive information on every game published on steam. Relevant columns in this dataset included Release Date, Price, Genres, Estimated Owners, Median Playtime Forever, and more. From the information in the dataset, we decided to define success for a game as having a median playtime forever of over one hour. To keep it concise, we chose this metric as it effectively measures user engagement, is resistant to outliers, and was consistently available across all games in our dataset.
+
+Our analysis revealed a significant class imbalance, with approximately 88% of games being unsuccessful by our definition. Throughout this notebook, we detail our approach to addressing this challenge, from data preprocessing to model selection and evaluation. Each section includes clear explanations of our methodology, the reasoning behind our decisions, and the insights gained from our analysis.
